@@ -119,6 +119,9 @@
       .message-card{padding:40px 23px 31px;border-radius:7px 38px 7px 38px}.message-card:before{right:17px;font-size:5.5rem}
       .cta-banner-link{border-radius:18px}
     }
+      /* 日本語の折り返し：文節で区切り、見出しは行の長さをそろえる */
+    body{word-break:auto-phrase;line-break:strict}
+    p,li,td,th,summary,h1,h2,h3,.note,.rule p,.completion b,.bridge-lead{text-wrap:pretty}
   </style>
 </head>
 <body>
@@ -325,7 +328,7 @@ Web検索を使い、楽天市場で実際に販売ページを確認できる�
 
         <article class="step" data-step="04">
           <span class="step-label">STEP 4</span>
-          <h3>AIで投稿文と<br>Pinterest用の完成画像を作る</h3>
+          <h3>AIで投稿文と<br>Pinterest用の<br>完成画像を作る</h3>
           <p>STEP3で保存した商品画像をChatGPTに添付し、STEP1・2と同じチャットに、以下のプロンプトを入力してください。<br>商品情報を入力し直す必要はありません。</p>
           <ul class="check-list">
             <li>楽天からダウンロードした商品画像をChatGPTに添付する</li>
